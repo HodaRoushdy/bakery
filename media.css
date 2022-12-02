@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px){
+    .FirstPage{
+    width: 100% 100%;
+    } .SecondContent {
+        width: 100%;
+}.SecondImage{
+    width: 100%;
+}.ThirdContent{
+    width: 100%;
+}.ThirdImage{
+    width: 100%;
+}.ForthImage{
+    width: 100%;
+}.FifthImage{
+    width: 100%;
+}.Section{
+    width: 100%;
+}
+}@media screen and (min-width: 600px){
+    .FirstPage{
+        width: 100% 100%;
+}  .SecondContent {
+        width: 100%;
+}.SecondImage{
+    width: 100%;
+}.ThirdContent{
+    width: 100%;
+}.ThirdImage{
+    width: 100%;
+
+}.ForthImage{
+    width: 45%;
+}.FifthImage{
+    width: 40%;
+}.Section{
+    width: 50%;
+}
+}@media screen and (min-width: 768px){
+    .FirstPage{
+        width: 100% 100%;
+}.SecondContent {
+    width: 45%;
+}.SecondImage{
+    width: 45%;
+}.ThirdContent{
+    width: 40%;
+}.ThirdImage{
+    width: 40%;
+}.ForthImage{
+    width: 45%;
+}.FifthImage{
+    width: 40%;
+}.Section{
+    width: 50%;
+}
+}@media screen and (min-width: 992px){
+    .FirstPage{
+        width: 100% 100%;
+        }.SecondContent {
+            width: 45%;
+        }.SecondImage{
+            width: 45%;
+        }.ThirdContent{
+            width: 40%;
+        }.ThirdImage{
+            width: 40%;
+
+        }.ForthImage{
+            width: 30%;
+        }.FifthImage{
+            width: 40%;
+        }
+        .Section{
+            width: 20%;
+        }
+}
+
+@media screen and (min-width: 1200px){
+    .FirstPage{
+        width: 100% 100%;
+        }
+    
+        .SecondContent {
+            width: 45%;
+        }.SecondImage{
+            width: 45%;
+        }.ThirdContent{
+            width: 40%;
+        }.ThirdImage{
+            width: 40%;
+
+        }.ForthImage{
+            width: 30%;
+        }.FifthImage{
+            width: 40%;
+        }
+        .Section{
+            width: 20%;
+        }
+}

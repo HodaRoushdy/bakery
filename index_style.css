@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    background: #fff;
+    color: #686868;
+
+    
+}
+h1{
+    display: inline-block;
+    font-size: 76px;
+    font-weight: 100;
+}
+
+.FirstPage{
+    background-image:url("images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+    
+}
+.FirstPage a{
+    color: #fff;
+    text-decoration: none;
+    margin: 7px;
+}
+.FirstPage .navBar li{
+    float: left;
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.navBar {
+    position: fixed;
+    left: 100px;
+    width: 80%;
+    margin: 30px auto;
+
+}
+.navBar img{
+    width: 15%;
+    float: left;
+    
+}
+.navBarContent{
+    float: right;
+}
+.content{
+    text-align: center;
+    color: #fff;
+    margin-top: 250px;
+}
+.content p{
+    font-size: 24px;
+    font-weight: 100;
+    /* line-height: 50px; */
+}
+.content .test{
+    margin: 30px 0px;
+    font-size: 24px;
+}
+.navBarContent{
+    text-align: right;
+}
+.FirstButton{
+    width : 100px;
+    height: 50px;
+    background-color:#8E7853;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #8E7853;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 0 10px;
+}
+.SecondButton{
+    width : 100px;
+    height: 50px;
+    background-color: transparent;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.box{
+    
+    width: 30px;
+    height: 50px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px white solid;
+    border-radius: 45%;
+}
+.RightRectangle img{
+    display: block;
+}
+.RightRectangle{
+position: fixed;
+}
+
+.SecondPage , .ThirdPage ,.ForthPage ,.FifthPage , .SixthPage{
+    padding:100px 0 ;
+    
+}
+.SecondPage {
+    padding: 100px 100px;
+}
+.SecondContent p{
+float: left;
+padding: 20px 0px 0px 10px;
+}
+.SecondContent h4{
+line-height: 35px;
+}
+.SecondContent h2{
+    font-size:1.5rem;
+    color: #303030;
+    font-weight: 400;
+}
+.SecondContent{
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    padding-top:50px;
+}
+
+.SecondContent img{
+    width: 10%;
+    float: left;
+}
+.SecondImage{
+    float: left;
+    width: 45%;
+    
+    
+}
+.SecondImage img{
+    width: 100%
+}
+.ThirdPage {
+    background-color:#f8f8f8;
+    
+    padding-left: 120px;
+}
+.ThirdContent{
+    float: left;
+    width: 40%;
+    margin-right: 60px;
+    padding-top: 50px;
+}
+.ThirdContent h2{
+    font-size:1.5rem;
+    color: #303030;
+    font-weight: 400;
+}
+.ThirdImage{
+    float: left;
+    width: 40%;
+}
+.ThirdImage img{
+    width: 100%;
+
+
+}
+.ForthPage{
+    text-align: center;
+}
+.ForthPage h3{
+font-size: 30px;
+color: #303030;
+}
+.ForthPage p{
+    font-size: 17px;
+    color: #888;
+
+}
+.ForthPage h4{
+    font-weight: 100;
+    color: #303030;
+    line-height: 1.38em;
+    padding: 20px 0px;
+    font-size: 22px;
+}
+
+.ForthImage {
+    display: inline-block;
+    width: 30%;
+    padding: 50px 20px;
+}
+.ForthPage{
+    padding:40px;
+}
+.ForthImages img{
+    width: 100%;
+    
+}
+.FifthImage{
+    float: left;
+    width: 40%;
+}
+.FifthImage iframe{
+    width: 100%;
+
+}
+.FifthContent img{
+    width: 7%;
+}
+.FifthContent p{
+    display: inline-block;
+    padding-left: 9px;
+}
+.FifthContent{
+    float: left;
+    padding: 30px 40px;
+    overflow: auto;
+}
+.FifthContent h2{
+    font-size:1.5rem;
+    color: #303030;
+}
+
+.Section{
+
+    float: left;
+    width: 20%;
+    margin: 0px 20px;
+    
+}
+
+.SixthPageSpart img{
+    display: block;
+}
+.SixthPageFpart{
+    background-color: #403d38;
+    color: #969696;
+    height: 40%;
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+.SixthPageFpart hr{
+    color: rgba(255,255,255,0.05);
+}
+.SixthPageFpart a{
+    color: #969696;
+}
+    .sixthPage{
+    background-color: #403d38;
+    box-sizing: border-box;
+}
+.SixthPageSpart{
+    height: 40%;
+    padding: 0px 500px;;
+    padding-top: 70px ;   
+    background: #1b1b1b;
+    color: #797979;
+
+}
+
+.SixthPageSpart p{
+    padding: 20px 0px;
+    text-align: center;
+}
+.SixthPageSpart  .socialMedia{
+    width: 50%;
+    margin: auto;
+}
+.SixthPageFpart h4{
+    padding: 30px;
+    padding-left: 0px;
+    color: #fff;
+    font-size: 18px;
+}
+.SixthPageFpart p{
+    color: #969696;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0px;
+    background-color: rgba(255,255,255,0.05);;
+}
+.satr{
+    padding-top: 10px;
+}
